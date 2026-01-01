@@ -1,1 +1,31 @@
 index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Faiza ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio autoplay loop>
+  <source src="music/romantic.mp3" type="audio/mpeg">
+</audio>
+
+<h1>🎉 Happy Birthday Faiza 🎉</h1>
+<p>You are my today, my tomorrow, my forever ❤️</p>
+
+<button onclick="reveal()">Click for Surprise 💖</button>
+
+<div id="proposal" style="display:none;">
+  <h2>Faiza 💍</h2>
+  <p>
+    Every moment with you is special.<br>
+    On your birthday I want to ask you something…
+  </p>
+  <h1>Will you be mine forever? 💖💍</h1>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
